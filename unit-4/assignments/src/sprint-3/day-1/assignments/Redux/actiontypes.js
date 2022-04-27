@@ -1,0 +1,6 @@
+export const INCRE = "INCREMENT"
+export const DECRE = "DECREMENT"
+export const SET = "SETVALUE"
+export const ADDITION = "add"
+export const MULTIPLY = "multiply"
+export const DIVIDE = "divide"
