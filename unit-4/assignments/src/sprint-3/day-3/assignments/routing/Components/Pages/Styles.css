@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links > a,
+.links > svg {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.links > svg {
+  font-size: 20px;
+}
+
+.links > a:hover,
+.links > svg:hover {
+  color: #4338ca;
+  cursor: pointer;
+}
+
+.primary {
+  margin: 40px 20px;
+  padding: 10px;
+  border-top: 1px solid rgb(207, 207, 207);
+  border-bottom: 1px solid rgb(207, 207, 207);
+  display: flex;
+}
+.footer_about {
+  width: 30%;
+}
+
+.primary > div {
+  padding: 20px;
+  transition: all 0.5s ease;
+}
+
+.primary > div:nth-child(2) {
+  margin-left: 60px;
+}
+.primary > div:nth-child(3) {
+  margin-left: 200px;
+}
+
+.primary > div > h5 {
+  margin-bottom: 20px;
+}
+
+.primary > div > ul > li {
+  padding: 10px 0;
+  list-style: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.primary > div > ul > li > a {
+  color: #000;
+}
+.primary > div > ul > li > a:hover {
+  color: #4338ca;
+}
+
+.primary > div > h3 {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.secondary {
+  display: flex;
+  padding: 0 20px 20px 20px;
+}
+
+.secondary > div {
+  padding: 0 4px;
+  font-size: 13px;
+}
+
+.social > svg {
+  margin-left: 10px;
+  cursor: pointer;
+}
