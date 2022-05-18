@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    border-bottom: 1px solid black;
+    gap: 3rem;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+.imagetag{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.email{
+    color : gray;
+    font-weight: 600;
+}
