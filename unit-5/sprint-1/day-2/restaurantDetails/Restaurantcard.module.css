@@ -1,0 +1,8 @@
+.main_container{
+    display:flex;
+    gap: 70px;
+    border: 1px solid black;
+}
+.same{
+    margin-top: -7px;
+}

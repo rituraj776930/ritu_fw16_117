@@ -1,0 +1,22 @@
+.container1{
+    margin-left: 75px;
+    display: flex;
+    gap: 300px;
+}
+.innerdiv1{
+    display: flex;
+    gap: 20px;
+}
+.innerdiv2{
+    display : flex;
+    gap:20px
+}
+.h1{
+    text-align: center;
+}
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
