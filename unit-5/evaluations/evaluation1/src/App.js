@@ -7,7 +7,7 @@ import axios from 'axios'
 export default function App() {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
-  const [income , setincome] = useState("")
+  const [income , setincome] = useState("ASC")
   useEffect(()=>{
     getdata({page , income})
   },[page , income])
