@@ -32,15 +32,19 @@ return (
     
     <h1>Registration Page 2</h1>
     <form onSubmit={handleSubmit}>
-        <label>Address:</label>
-        <input type="text" onChange={(e)=>setAddress(e.target.value)}/>
+        <label style={{color:"purple" , fontWeight:"bold",fontSize:"20px"}}>Address:</label>
+        <input style={{width:"200px" , height:"19px" , borderRadius:"20px" , backgroundColor:"orange"}} type="text" onChange={(e)=>setAddress(e.target.value)}/>
         <br />
-        <label>Number:</label>
-        <input type="text" onChange={(e)=>setNumber(e.target.value)}/>
         <br />
-        <input type="submit"/>
+        <label style={{color:"purple" , fontWeight:"bold",fontSize:"20px"}}>Number:</label>
+        <input style={{width:"200px" , height:"19px" , borderRadius:"20px" , backgroundColor:"orange"}} type="text" onChange={(e)=>setNumber(e.target.value)}/>
+        <br />
+        <br />
+        <input style={{width:"100px" , height:"24px" , borderRadius:"20px" , backgroundColor:"purple" , color:"white"}} type="submit"/>
     </form>
-    <button><Link to="/register/one">PREV</Link></button>
+    <br />
+    
+    <button style={{width:"100px" , height:"24px" , borderRadius:"20px" , backgroundColor:"purple" , color:"white"}}><Link style={{color:"white" , textDecoration:"none"}} to="/register/one">PREV</Link></button>
     
 </div>
 )

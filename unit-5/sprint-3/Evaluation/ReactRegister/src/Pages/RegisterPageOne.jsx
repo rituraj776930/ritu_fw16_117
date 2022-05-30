@@ -32,16 +32,18 @@ function RegisterPageOne() {
         
         <h1>Registration Page 1</h1>
         <form onSubmit={handleSubmit}>
-            <label>User:</label>
-            <input type="text" onChange={(e)=>setuser(e.target.value)}/>
+            <label style={{color:"purple" , fontWeight:"bold",fontSize:"20px"}}>User:</label>
+            <input style={{width:"200px" , height:"19px" , borderRadius:"20px" , backgroundColor:"orange"}} type="text" onChange={(e)=>setuser(e.target.value)}/>
             <br />
-            <label>Email:</label>
-            <input type="text" onChange={(e)=>setemail(e.target.value)}/>
             <br />
-            <input type="submit"/>
+            <label style={{color:"purple" , fontWeight:"bold",fontSize:"20px"}}>Email:</label>
+            <input style={{width:"200px" , height:"19px" , borderRadius:"20px" , backgroundColor:"orange"}} type="text" onChange={(e)=>setemail(e.target.value)}/>
+            <br />
+            <br />
+            <input style={{width:"100px" , height:"24px" , borderRadius:"20px" , backgroundColor:"purple" , color:"white"}} type="submit"/>
         </form>
-        
-        {flag ? <button><Link to="/register/two">NEXT</Link></button> : <div></div>}
+        <br />
+        {flag ? <button style={{width:"100px" , height:"24px" , borderRadius:"20px" , backgroundColor:"purple" , color:"white" ,textDecoration:"none"}}><Link style={{color:"white" , textDecoration:"none"}} to="/register/two">NEXT</Link></button> : <div></div>}
     </div>
   )
 }
