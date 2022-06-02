@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "49a72f8e-8e72-44ac-b00f-04647529c3b6",
+      "title": "hgvv"
+    },
+    {
+      "id": "0f22fd73-eab6-4c99-ab79-78d1fd07b086",
+      "title": "hgvv"
+    },
+    {
+      "id": "17d0553f-393e-44af-a7aa-d56f12db0477",
+      "title": "hgvv"
+    }
+  ]
+}
