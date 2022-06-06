@@ -1,9 +1,9 @@
 import { actionTypes } from "./action";
 
 const initState = {
-    loading:false,
-    error:false,
-    datas:[]
+    isLoading:false,
+    isError:false,
+    data:[]
 };
 
 function reducer(state = initState, action) {
@@ -12,23 +12,22 @@ function reducer(state = initState, action) {
         case actionTypes.ADD_USER_REQUEST:{
             return{
                 ...state,
-                loading:true,
-                error:false
+                isLoading:true,
+                isError:false
             }
         }
         case actionTypes.ADD_USER_SUCCESS:{
             return{
                 ...state,
-                loading:false,
-                datas:action.payload,
-                error:false
+                isLoading:false,
+                data:action.payload,
             }
         }
         case actionTypes.ADD_USER_FAILURE:{
             return{
                 ...state,
-                error:true,
-                loading:false
+                isError:true,
+                isLoading:false
             }
         }
         default:
